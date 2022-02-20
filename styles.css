@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background: #eee;
+  max-width: 100vw;
+}
+
+nav {
+  background-color: #dd7834;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.headerLogo {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 2rem;
+  align-items: center;
+  padding: 0.3rem;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 239, 239);
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+  border: black solid 0.2rem;
+  margin-right: 0.5rem;
+}
+
+.logoContainer img {
+  height: 2.8rem;
+  width: 2.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav li {
+  margin-right: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  outline: none;
+}
+
+.hero {
+  background-color: #dd7834;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5rem;
+}
+
+.heroText {
+  color: #f9faf8;
+  font-size: 18px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroText h1 {
+  font-weight: bolder;
+  font-size: 48px;
+  margin: 0;
+}
+
+.hero button {
+  background-color: #e9bea2;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0rem 0.39rem #e49351;
+  padding: 10px;
+  outline: none;
+  margin: 1rem;
+}
+
+.hero button:hover {
+  cursor: pointer;
+}
+
+.hero button:active {
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+.video {
+  height: 20rem;
+  width: 35rem;
+  border: none;
+  overflow: hidden;
+}
+
+.imageArea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.imageHeading {
+  font-size: 48px;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+
+.imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.bullieImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.bullieImage p {
+  max-width: 80%;
+  font-size: 18px;
+}
+
+.bullieImage img {
+  display: block;
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border: 0.2rem solid #dd7834;
+  border-radius: 1rem;
+}
+
+.quoteArea {
+  background-color: #e493515b;
+  padding: 5rem 2rem 5rem 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.quotee {
+  font-style: normal;
+  text-align: right;
+  font-weight: bold;
+}
+
+.callToAction {
+  background-color: #dd7834;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 0.3rem;
+  padding: 3rem 2rem 3rem 2rem;
+  margin: 10rem;
+}
+
+.callToActionText {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.callToActionText p {
+  font-size: 1rem;
+}
+
+.callBtn {
+  background-color: transparent;
+  color: white;
+  border-radius: 0.3rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: solid 0.1rem white;
+  text-decoration: none;
+}
+
+.callBtn:hover {
+  cursor: pointer;
+  color: #dd7834;
+  border-color: #dd7834;
+  background-color: white;
+}
+
+.callBtn:active {
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+}
+
+footer {
+  background-color: #dd7834;
+  text-align: center;
+}
+
+.copy {
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.copy a {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .hero {
+    padding: 3rem;
+  }
+  .video {
+    height: 15rem;
+    width: 25rem;
+    margin-top: 1rem;
+  }
+  .callToAction {
+    text-align: center;
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 5rem;
+  }
+}
